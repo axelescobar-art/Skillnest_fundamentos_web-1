@@ -9,11 +9,15 @@
     padding: 30px;
 }
 .button_buscar{
+    margin: auto;
+    display: block ;
     padding: 5px 30px;
     border: solid 2px black;
     border-radius: 15px;
 }
 .button_anadir{
+    margin: auto;
+    display: block ;
     padding: 10px 15px;
     font-size: 20px;
     border-radius: 50%;
