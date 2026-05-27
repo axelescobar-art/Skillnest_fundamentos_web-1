@@ -52,7 +52,10 @@ body {
     /*Añade una mano cuando mouse para encima */
     border-radius: 6px;
 }
-
+.enlace-mas {
+    text-decoration: none;
+    color: #2563eb;
+}
 .blue {
     color: #2563eb;
 }
@@ -86,4 +89,59 @@ body {
     display: flex;
     gap:25px;
     align-items: center;
+}
+
+/*seccion 2 */
+.imagen-puesta{
+    width:  80px;
+    height: 80px;
+}
+
+.nigga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.polnito{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.femboys{
+    width: 200px;
+}
+
+.subnautica{
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #2585eb2c;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.boton{
+
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p{
+    margin: 20px;
 }
