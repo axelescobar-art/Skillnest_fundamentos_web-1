@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(177, 177, 177);
+    color: black;
+    /*altura exagerada para ver scroll */
+    min-height: 150vh;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.spuderman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 50px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+}
+
+.seccion{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+.seccion2{
+    margin:20px;
+}
+
+.imagen {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    border: solid 6px white;
+}
+.neru{
+    text-align: center;
+}
+.miku{
+    text-align: center;
+}
+.teto {
+    text-align: center;
+}
+
+.V1 {
+    background-color: rgb(61, 171, 255);
+    color: aliceblue;
+    border-radius: 8%;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+.links{
+    color: blue;
+    font-weight: bold;
+}
