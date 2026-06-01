@@ -12,7 +12,7 @@ body {
 
 /* ENCABEZADO */
 .header {
-    background-color: green;
+    background-color: #208715;
     color: white;
     text-align: center;
     padding: 30px 0px;
@@ -106,6 +106,7 @@ body {
 }
 
 .linea-corta{
+    background-color: #bcb9b9;
     width: 75%;
     height: 8px;
     margin-bottom: 16px;
