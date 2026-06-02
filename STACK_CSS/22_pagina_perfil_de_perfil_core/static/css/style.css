@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #2C3E50;
+    padding: 10px 30px;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498DB;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Logo */
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    transition: transform 0.1s ease, margin-left 0.5s ease;
+}
+
+.log a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    transition: transform 0.1s ease, margin-left 0.5s ease;
+}
+
+/* Icono logo */
+.logo i {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* Navegación */
+.nav-links {
+    /* Flex */
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.nav-links .a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+}
+
+/* Efecto hover */
+.nav-links .btn:hover {
+    background-color: #3498DB;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+.nav-links .a:hover {
+    background-color: #fff;
+    color: rgb(73, 73, 73);
+    transform: scale(1.2);
+}
+
+.nav-links .X:hover {
+    background-color: #fff;
+    color: #000000;
+    transform: scale(1.5);
+}
+
+.logo a:hover {
+    transform: scale(1.3);
+    /*aumenta la escala*/
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    padding: 50px;
+    background-color: #ECF0F1;
+    gap: 50px;
+}
+
+.sex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    background-color: #ECF0F1;
+}
+
+.perfil {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    gap: 15px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;
+    left: 33.4%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 25px;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: #adadad;
+}
+
+.edit {
+    text-decoration: none;
+    color: #3498DB;
+    padding-bottom: 20px;
+}
+
+.edit:hover {
+    transform: scale(1.4);
+    color: #2a76a8;
+    transition: 0.1s ease;
+}
+
+.aceptar {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.acp {
+    background-color: #1DB1A9;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+}
+
+.acp:hover {
+    background-color: #1DB1A9;
+    color: white;
+    transform: scale(1.5);
+    transition: 0.1s ease;
+}
+
+.rech {
+    background-color: #F08080;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 6px;
+    border: none;
+}
+
+.rech:hover {
+    background-color: #F08080;
+    color: white;
+    transform: scale(1.5);
+    transition: 0.1s ease;
+}
+
+.ver {
+    text-decoration: none;
+    color: #2B93D9;
+    border-radius: 5px;
+    padding: 3px 6px;
+    border: 2px solid #2B93D9;
+}
+
+.ver:hover {
+    background-color: #2B93D9;
+    color: white;
+    transition: 0.1s ease;
+}
+
+.logos {
+    width: 80px;
+    height: 80px;
+}
+
+.soli {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.aa {
+    color: white;
+    text-decoration: none;
+}
+
+.sex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ECF0F1;
+    flex: 1;
+    gap: 50px;
+}
+
+.solicitud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    gap: 7px;
+    box-shadow: #4b4b4b46 0px 2px 10px;
+}
+
+.conexiones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    gap: 7px;
+    box-shadow: #4b4b4b46 0px 2px 10px;
+}
+
+.marca {
+    background-color: #3498DB;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 150px;
+}
+
+.card_perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: #4b4b4b46 0px 2px 10px;
+}
+
+.usuariosol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+}
+
+.sol1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sol2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+}
+
+.descripcion {
+    color: #000000;
+    width: 65%;
+}
+
+p {
+    color: #000000;
+}
