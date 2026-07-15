@@ -37,7 +37,24 @@
 //Si la temperatura supera los 35 grados, mostrar una alerta adicional:
 //“Temperatura extrema”.
 
+function mostrartemperatura() {
+    let temperatura = parseFloat(prompt("Ingrese la temperatura actual:"))
+    if (temperatura < 10 && temperatura > -30) {
+        mensaje = "Hace frío";
+} else if (temperatura >= 10 && temperatura <= 24) {
+    mensaje = "Temperatura agradable";
+} else if (temperatura >= 25 && temperatura <= 50){
+    mensaje = "Hace calor";
+} else if{
+    mensaje = "❌ Ingresar valores validos" 
+}
 
+//Alerta adicional
+if (temperatura > 35){
+    mensaje += "\n ⚠ Alerta: Temperatura extrema";
+}
+alert(mensaje)
+}
 
 //✅ Ejercicio 4: Verificación de administrador
 //📝 Enunciado
