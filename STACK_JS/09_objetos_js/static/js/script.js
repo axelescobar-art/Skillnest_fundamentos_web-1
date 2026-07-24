@@ -22,9 +22,9 @@ console.log(hamburguesaEspecial.mostrarIngredientes())
 //Variable\Objeto con metodo
 
 let jojos = {
-    nombre: "jose",
-    apellido: "jose",
-    edad: "sepa la bola",
+    nombre: "jonathan",
+    apellido: "joestar",
+    edad: "23",
     mostrarNombre: function () {
         console.log(`Nombre: ${this.nombre}`)
         console.log(`Apellido: ${this.apellido}`)
