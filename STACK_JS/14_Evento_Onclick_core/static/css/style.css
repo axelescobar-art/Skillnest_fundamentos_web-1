@@ -25,7 +25,7 @@ body {
     font-weight: bold;
 }
 
-.search-bar {
+.barra-busqueda {
     width: 40%;
     padding: 0.6rem 1.2rem;
     border-radius: 20px;
@@ -80,7 +80,7 @@ body {
     margin-bottom: 0.8rem;
 }
 
-.post .author,
+.post .autor,
 .post .date {
     font-size: 0.95rem;
     margin-bottom: 0.2rem;
@@ -108,7 +108,7 @@ body {
 }
 
 /* Tarjeta de perfil */
-.welcome-card {
+.bienvenido-card {
     background: white;
     padding: 2rem;
     border-radius: 12px;
@@ -116,12 +116,12 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
-.welcome-card h3 {
+.bienvenido-card h3 {
     font-size: 1.3rem;
     margin-bottom: 0.8rem;
 }
 
-.welcome-card p {
+.bienvenido-card p {
     color: #333;
     line-height: 1.4;
     margin-bottom: 1.5rem;
