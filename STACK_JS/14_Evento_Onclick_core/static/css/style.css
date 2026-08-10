@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+    color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9d8df1;
+    padding: 1rem 4rem;
+}
+
+.logo {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 40%;
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.btn-login {
+    background-color: #6b5ce7;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #5b4cc7;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+}
+
+.posts-container {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+/* Publicaciones */
+.post {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.post h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.post .author,
+.post .date {
+    font-size: 0.95rem;
+    margin-bottom: 0.2rem;
+}
+
+.post .descripcion {
+    margin: 1rem 0 1.5rem 0;
+    line-height: 1.4;
+    color: #333;
+}
+
+.btn-like {
+    background-color: #ff7675;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-like:hover {
+    background-color: #e84393;
+}
+
+/* Tarjeta de perfil */
+.welcome-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.welcome-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.welcome-card p {
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.btn-profile {
+    background-color: #00cec9;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-profile:hover {
+    background-color: #00b894;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Axel Escobar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Blog</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navegación superior -->
+    <nav class="navbar">
+        <h1 class="logo">Social Blog</h1>
+        <input type="text" placeholder="Buscar publicaciones..." class="search-bar">
+        <button id="btnLogin" class="btn-login" onclick="toggleLogin(this)">Iniciar sesión</button>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <main class="container">
+
+        <!-- Columna izquierda: Publicaciones -->
+        <section class="posts-container">
+            <article class="post">
+                <h2>Fundamentos de JavaScript</h2>
+                <p class="author"><strong>Publicado por:</strong> Carlos Pérez</p>
+                <p class="date"><strong>Fecha:</strong> 02/03/2025</p>
+                <p class="descripcion">
+                    JavaScript es un lenguaje de programación que se utiliza en el desarrollo web. Aprende los conceptos
+                    básicos para comenzar a programar.
+                </p>
+                <button class="btn-like" onclick="sumarLike(this)"><span class="likes-count">12</span> Me gusta</button>
+            </article>
+
+            <article class="post">
+                <h2>Aprende a diseñar con CSS</h2>
+                <p class="author"><strong>Publicado por:</strong> Ana Gómez</p>
+                <p class="date"><strong>Fecha:</strong> 01/03/2025</p>
+                <p class="description">
+                    El diseño web es una parte fundamental en el desarrollo de aplicaciones web. Conoce las propiedades
+                    de CSS para crear interfaces atractivas.
+                </p>
+                <button class="btn-like" onclick="sumarLike(this)"><span class="likes-count">30</span> Me gusta</button>
+            </article>
+        </section>
+
+        <!-- Columna derecha: Tarjeta de bienvenida -->
+        <aside class="sidebar">
+            <div class="welcome-card">
+                <h3>¡Bienvenido!</h3>
+                <p>Explora nuevas publicaciones y conecta con otros usuarios.</p>
+                <button class="btn-profile" onclick="mostrarPerfil()">Ver perfil</button>
+            </div>
+        </aside>
+
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
