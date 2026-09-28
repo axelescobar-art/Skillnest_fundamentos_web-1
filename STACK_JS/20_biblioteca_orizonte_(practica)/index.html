@@ -13,11 +13,11 @@
     <header class="navbar">
         <div class="logo-container">
             <img class="logo_taco" src="static/images/logo.png">
-            <h1 class="logo">Taco <span class="letra_negra">Palace</span></h1>
+            <h1 class="logo">Biblioteca <span class="letra_negra">Horizonte</span></h1>
         </div>
         <div class="actions-container">
             <input type="text" placeholder="Gmail" class="search-input">
-            <button class="btn-login">Login</button>
+                 <button class="btn-login" id="btn-ingresar">Ingresar</button>
             <img class="logo_carrito" src="static/images/carrito.png">
         </div>
     </header>
@@ -52,34 +52,48 @@
             </div>
         </section>
 
-        <section class="seccion-principal">
+       <section class="seccion-principal">
+            
+            <!-- Columna Izquierda (Banner y Video) -->
             <div class="contenedor_2">
                 <div class="texto-banner">
-                    <h2>La mejor variedad en platillos de comida mexicana</h2>
-                    <p>Contamos con <strong>servicio a <span>domicilio</span></strong></p>
+                    <h2>Descubre nuevas historias</h2>
+                    <p>Explora nuestra biblioteca virtual y encuentra libros para todos los gustos.</p>
                 </div>
-                <img class="imagen-papu" src="static/images/comida-mexicana.jpg" alt="Comida mexicana">
-            </div>
+                
+                <div class="tarjeta-video">
+                    <div class="contenedor-video">
+                        <video controls preload="auto" style="width: 100%; height: 100; border-radius: 8px; ">
+                            <source src="static/videos/videoxd.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div> <!-- Cierre de contenedor_2 -->
 
+            <!-- Columna Derecha (Recomendados) -->
             <aside class="recomendados">
-                <h3>Recomendados:</h3>
+                <h3>Libros recomendados:</h3>
 
                 <div class="tarjeta-recomendado">
-                    <img src="static/images/tacos.jpg" alt="Orden de Tacos">
-                    <p>Orden de Tacos <a href="#">Ver Más...</a></p>
+                    <img src="static/images/tacos.jpg" alt="Cien años de soledad">
+                    <p>Cien años de soledad <a href="#">Ver más...</a></p>
+                    <button class="btn-sumar">+</button>
                 </div>
 
                 <div class="tarjeta-recomendado">
-                    <img src="static/images/flautas.jpg" alt="Orden de Flautas">
-                    <p>Orden de Flautas <a href="#">Ver Más...</a></p>
+                    <img src="static/images/flautas.jpg" alt="Sapiens">
+                    <p>Sapiens <a href="#">Ver más...</a></p>
+                    <button class="btn-sumar">+</button>
                 </div>
 
                 <div class="tarjeta-recomendado">
-                    <img src="static/images/flautas.jpg" alt="Orden de Flautas">
-                    <p>Orden de Flautas <a href="#">Ver Más...</a></p>
+                    <img src="static/images/flautas.jpg" alt="El principito">
+                    <p>El principito <a href="#">Ver más...</a></p>
+                    <button class="btn-sumar">+</button>
                 </div>
             </aside>
-        </section>
+
+        </section> <!-- Cierre de seccion-principal -->
     </main>
     <script src="static/js/script.js"></script>
 </body>
